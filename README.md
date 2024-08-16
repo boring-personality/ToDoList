@@ -24,13 +24,43 @@ A simple command-line ToDo application written in Rust, designed to manage tasks
 
 3. **Run the application**:
     ```sh
-    ./target/release/ToDolist
+    ./target/release/todo
+    ```
+## Usage
+- **Add a new task:**
+
+    ```bash
+    ./todo add "Your new task"
     ```
 
+- **List all tasks:**
+
+    ```bash
+    ./todo list
+    ```
+
+- **Mark a task as completed:**
+
+    ```bash
+    ./todo complete <task_id>
+    ```
+
+- **Delete a task:**
+
+    ```bash
+    ./todo delete <task_id>
+    ```
+- **Clear all tasks:**
+
+    ```bash
+    ./todo clear
+    ```
+- **Open application in interactive mode:**
+
+   ```bash
+   ./todo interactive
+   ```
 ## Contributing
 
 Contributions are welcome! Please fork the repository and submit a pull request.
 
-## License
-
-This project is licensed under the MIT License. See the LICENSE file for details.
